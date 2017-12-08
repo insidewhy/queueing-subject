@@ -1,6 +1,6 @@
 {
   "name": "queueing-subject",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "an rxjs subject that queues data when it has no observers",
   "main": "lib/index.js",
   "typings": "lib/index",
@@ -10,10 +10,11 @@
   },
   "author": "James Pike <github@chilon.net>",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "rxjs": "^5.0.1"
   },
   "devDependencies": {
+    "rxjs": "^5.0.1",
     "typescript": "^2.1.6"
   }
 }

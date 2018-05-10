@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "curly": [true, "as-needed"],
+    "indent": [true, "spaces", 2],
+    "member-access": false,
+    "quotemark": [true, "single", "avoid-escape"],
+    "semicolon": [true, "never"]
+  },
+  "rulesDirectory": []
+}

@@ -11,10 +11,10 @@
   "author": "James Pike <github@chilon.net>",
   "license": "ISC",
   "peerDependencies": {
-    "rxjs": "^5.0.1"
+    "rxjs": "^6.1.0"
   },
   "devDependencies": {
-    "rxjs": "^5.0.1",
-    "typescript": "^2.1.6"
+    "rxjs": "^6.1.0",
+    "typescript": "^2.8.3"
   }
 }

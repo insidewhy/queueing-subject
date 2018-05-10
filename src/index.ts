@@ -1,6 +1,4 @@
-import { Subject } from 'rxjs/Subject'
-import { Subscriber } from 'rxjs/Subscriber'
-import { Subscription } from 'rxjs/Subscription'
+import { Subject, Subscriber, Subscription } from 'rxjs'
 
 export class QueueingSubject<T> extends Subject<T> {
   private _queuedValues: T[] = []

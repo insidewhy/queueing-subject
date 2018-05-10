@@ -2,15 +2,15 @@
   "compilerOptions": {
     "declaration": true,
     "lib": [
-      "ES2015.Iterable",
-      "ES2015.Promise",
-      "ES2015.Symbol",
-      "ES5"
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.symbol",
+      "es5"
     ],
     "moduleResolution": "node",
     "outDir": "../lib",
     "sourceMap": true,
     "strict": true,
-    "target": "ES5"
+    "target": "es5"
   }
 }

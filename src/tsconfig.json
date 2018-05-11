@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "baseUrl": "",
     "declaration": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "lib": ["es6", "dom"],
-    "module": "commonjs",
+    "lib": [
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.symbol",
+      "es5"
+    ],
     "moduleResolution": "node",
     "outDir": "../lib",
     "sourceMap": true,
-    "target": "es5",
-    "typeRoots": [
-      "../node_modules/@types"
-    ]
+    "strict": true,
+    "target": "es5"
   }
 }

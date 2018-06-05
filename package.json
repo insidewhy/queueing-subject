@@ -1,6 +1,6 @@
 {
   "name": "queueing-subject",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "an rxjs subject that queues data when it has no observers",
   "main": "lib/index.js",
   "typings": "lib/index",

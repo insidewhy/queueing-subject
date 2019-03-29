@@ -15,8 +15,8 @@
     "rxjs": "^6.1.0"
   },
   "devDependencies": {
-    "rxjs": "^6.1.0",
-    "tslint": "^5.10.0",
-    "typescript": "^2.8.3"
+    "rxjs": "6.1.0",
+    "tslint": "5.10.0",
+    "typescript": "2.8.3"
   }
 }

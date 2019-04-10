@@ -238,9 +238,9 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-typescript@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.2.tgz#9ed4e6475d906f589200193be056f5913caed481"
+typescript@3.4.3:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.3.tgz#0eb320e4ace9b10eadf5bc6103286b0f8b7c224f"
 
 wrappy@1:
   version "1.0.2"

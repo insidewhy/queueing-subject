@@ -3,9 +3,10 @@
   "version": "0.3.0",
   "description": "an rxjs subject that queues data when it has no observers",
   "main": "lib/index.js",
+  "module": "lib/es2015/index.js",
   "typings": "lib/index",
   "scripts": {
-    "build": "tsc -p src",
+    "build": "tsc -p src/tsconfig.json && tsc -p src/tsconfig.es2015.json",
     "lint": "tslint -p src/tsconfig.json",
     "watch": "tsc -w -p src"
   },

@@ -1,17 +1,7 @@
 {
+  "extends": "./tsconfig.es5.json",
   "compilerOptions": {
-    "declaration": true,
-    "lib": [
-      "es2015.iterable",
-      "es2015.promise",
-      "es2015.symbol",
-      "es5"
-    ],
-    "moduleResolution": "node",
-    "outDir": "../lib",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es5"
+    "outDir": "../lib.es2015",
+    "target": "es2015",
   },
-  "include": ["."]
 }

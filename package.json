@@ -21,5 +21,6 @@
     "rxjs": "6.5.2",
     "tslint": "5.18.0",
     "typescript": "3.5.3"
-  }
+  },
+  "files": ["lib/index.d.ts"]
 }

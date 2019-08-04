@@ -1,11 +1,11 @@
 {
   "name": "queueing-subject",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "an rxjs subject that queues data when it has no observers",
   "main": "lib.es5/index.js",
   "module": "lib.es5m/index.js",
   "es2015": "lib.es2015/index.js",
-  "typings": "lib/index",
+  "typings": "lib.es2015/index",
   "scripts": {
     "prepublish": "yarn build",
     "build": "tsc -p src/tsconfig.json && tsc -p src/tsconfig.es5.json && tsc -p src/tsconfig.es5.json -m es2015 --outDir lib.es5m",

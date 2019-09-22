@@ -4,10 +4,8 @@ export class QueueingSubject<T> extends Subject<T> {
   private queuedValues: T[] = []
 
   next(value: T): void {
-    if (this.closed || this.observers.length)
-      super.next(value)
-    else
-      this.queuedValues.push(value)
+    if (this.closed || this.observers.length) super.next(value)
+    else this.queuedValues.push(value)
   }
 
   _subscribe(subscriber: Subscriber<T>): Subscription {

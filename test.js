@@ -5,11 +5,15 @@ const subj = new QueueingSubject()
 subj.next(1)
 subj.next(2)
 
-const sub1 = subj.subscribe(val => { console.log(`1: got ${val}`) })
+const sub1 = subj.subscribe(val => {
+  console.log(`1: got ${val}`)
+})
 
 subj.next(3)
 
-const sub2 = subj.subscribe(val => { console.log(`2: got ${val}`) })
+const sub2 = subj.subscribe(val => {
+  console.log(`2: got ${val}`)
+})
 
 subj.next(4)
 

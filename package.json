@@ -7,9 +7,11 @@
   "es2015": "lib.es2015/index.js",
   "typings": "lib.es2015/index",
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublishOnly": "yarn build",
     "build": "tsc -p src/tsconfig.json && tsc -p src/tsconfig.es5.json && tsc -p src/tsconfig.es5.json -m es2015 --outDir lib.es5m",
-    "lint": "tslint -p src/tsconfig.json",
+    "lint": "eslint 'src/*.ts'",
+    "validate-prettiness": "prettier -c 'src/*.ts'",
+    "validate": "yarn lint && yarn validate-prettiness",
     "watch": "tsc -w -p src/tsconfig.json"
   },
   "author": "James Pike <github@chilon.net>",
@@ -18,8 +20,14 @@
     "rxjs": "^6.1.0"
   },
   "devDependencies": {
-    "rxjs": "6.5.3",
-    "tslint": "5.19.0",
-    "typescript": "3.6.3"
+    "typescript": "3.6.3",
+    "@typescript-eslint/eslint-plugin": "2.3.0",
+    "@typescript-eslint/parser": "2.3.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "husky": "^3.0.5",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "rxjs": "6.5.3"
   }
 }

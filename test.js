@@ -1,4 +1,4 @@
-const QueueingSubject = require('./lib/index').QueueingSubject
+const QueueingSubject = require('./lib.es5/index').QueueingSubject
 
 const subj = new QueueingSubject()
 

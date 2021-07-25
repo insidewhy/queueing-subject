@@ -14,12 +14,14 @@ export class QueueingSubject<T> extends Subject<T> {
   /** @deprecated Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments */
   subscribe(
     next?: ((value: T) => void) | null,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     error?: ((error: any) => void) | null,
     complete?: (() => void) | null,
   ): Subscription
 
   subscribe(
     observerOrNext?: Partial<Observer<T>> | ((value: T) => void) | null,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     error?: ((error: any) => void) | null,
     complete?: (() => void) | null,
   ): Subscription {

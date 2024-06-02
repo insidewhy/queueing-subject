@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "lib": ["es2015.iterable", "es2015.promise", "es2015.symbol", "es5"],
+    "lib": ["es2015.iterable", "es2015.promise", "es2015.symbol", "es5", "dom"],
     "moduleResolution": "node",
     "outDir": "../lib.es5",
     "sourceMap": true,
